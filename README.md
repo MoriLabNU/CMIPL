@@ -18,7 +18,7 @@ The splits are available at ```./data/WORD```.
 # Model Training
 Run
 ```
-CUDA_VISIBLE_DEVICES=0 python train_ours_refine.py --fold fold1 --seed 114514 --base_lr 3e-2 --num_classes 15 --batch_size 8 --exp WORD/s4mc_ours_crosspse
+CUDA_VISIBLE_DEVICES=0 python train_ours_refine.py --fold fold1 --seed 114514 --base_lr 3e-2 --num_classes 15 --batch_size 8 --exp WORD/ours_crosspse
 ```
 for model training.
 Have fun.
